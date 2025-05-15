@@ -1,0 +1,76 @@
+﻿<div class="container">
+    <h2>Movimentos Manuais</h2>
+
+    <div class="movimento-form">
+        <h3>Movimento</h3>
+        <form (ngSubmit)="onSubmit()">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Mês:</label>
+                    <input type="number" [(ngModel)]="input.mes" name="mes" min="1" max="12" [disabled]="isFormDisabled" required />
+                </div>
+                <div class="form-group">
+                    <label>Ano:</label>
+                    <input type="number" [(ngModel)]="input.ano" name="ano" min="2000" max="2099" [disabled]="isFormDisabled" required />
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Produto:</label>
+                    <select [(ngModel)]="input.codProduto" name="codProduto" (change)="onProdutoChange()" [disabled]="isFormDisabled" required>
+                        <option value="" disabled>Selecione um produto</option>
+                        <option *ngFor="let produto of produtos" [value]="produto.codProduto">{{ produto.desProduto }}</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Cosif:</label>
+                    <select [(ngModel)]="input.codCosif" name="codCosif" [disabled]="isFormDisabled" required>
+                        <option value="" disabled>Selecione um produto cosif</option>
+                        <option *ngFor="let produtocosif of produtoscosif" [value]="produtocosif.codCosif">{{ produtocosif.codClassificacao }}</option>
+                    </select>
+                </div>
+            </div>
+
+                <div class="form-group">
+                    <label>Valor:</label>
+                    <input type="number" [(ngModel)]="input.valor" name="valor" step="0.01" [disabled]="isFormDisabled" required />
+                </div>
+                <div class="form-group">
+                    <label>Descrição:</label>
+                    
+                    <textarea [(ngModel)]="input.descricao" name="descricao" [disabled]="isFormDisabled" required></textarea>
+                </div>
+                <button type="submit" [disabled]="isFormDisabled">Salvar</button>
+                <button type="button" (click)="resetForm()" [disabled]="!isFormDisabled">Limpar</button>
+        </form>
+    </div>
+
+    <div class="movimento-grid">
+        <h3>Consulta</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Ano</th>
+                    <th>Código Produto</th>
+                    <th>Descrição Produto</th>
+                    <th>Número Lançamento</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let movimento of movimentos">
+                    <td>{{ movimento.mes }}</td>
+                    <td>{{ movimento.ano }}</td>
+                    <td>{{ movimento.codigoProduto }}</td>
+                    <td>{{ movimento.descricaoProduto }}</td>
+                    <td>{{ movimento.numeroLancamento }}</td>
+                    <td>{{ movimento.descricao }}</td>
+                    <td>{{ movimento.valor | currency:'BRL':'symbol':'1.2-2' }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

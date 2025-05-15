@@ -1,0 +1,296 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Web\\MovimentosManuais.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj",
+        "projectName": "MovimentosManuais.Application",
+        "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj",
+        "packagesPath": "C:\\Users\\antlia\\.nuget\\packages\\",
+        "outputPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antlia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj",
+        "projectName": "MovimentosManuais.Domain",
+        "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj",
+        "packagesPath": "C:\\Users\\antlia\\.nuget\\packages\\",
+        "outputPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antlia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Infrastructure\\MovimentosManuais.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Infrastructure\\MovimentosManuais.Infrastructure.csproj",
+        "projectName": "MovimentosManuais.Infrastructure",
+        "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Infrastructure\\MovimentosManuais.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\antlia\\.nuget\\packages\\",
+        "outputPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antlia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj": {
+                "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Domain\\MovimentosManuais.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Web\\MovimentosManuais.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Web\\MovimentosManuais.Web.csproj",
+        "projectName": "MovimentosManuais.Web",
+        "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Web\\MovimentosManuais.Web.csproj",
+        "packagesPath": "C:\\Users\\antlia\\.nuget\\packages\\",
+        "outputPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\antlia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj": {
+                "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Application\\MovimentosManuais.Application.csproj"
+              },
+              "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Infrastructure\\MovimentosManuais.Infrastructure.csproj": {
+                "projectPath": "C:\\Exame\\YuriNovais\\fontes\\MovimentosManuais\\MovimentosManuais.Infrastructure\\MovimentosManuais.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
